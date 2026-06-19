@@ -140,3 +140,15 @@ console.log(findLargestSmallest(num4));
  }
 
  findArmstrong(num5);
+
+//  ------------------------------------------------------
+// find factorial of a number.
+const num=5
+function findFactorial(num){
+    let product=1
+    for (let i=1; i<=num; i++){
+        product=product*i
+    }
+    return product
+}
+console.log(findFactorial(num));
