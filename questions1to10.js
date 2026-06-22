@@ -34,6 +34,7 @@ console.log(reverseString(word));
 
 // ------------------------------------------------------
 // check if a string is a palindrome or not.
+// if we reverse the given str , same word should be formed = PALINDROME    
 const str1 = "madam";
 function isPalindrome(str) {
     // const reversedStr=[...str].reverse().join('')
