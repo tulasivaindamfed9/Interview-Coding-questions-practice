@@ -7,6 +7,7 @@ function findLongestAndShortestWord(str) {
   let maxword = str[0];
   let minword = str[0];
 
+  // comparing each word length
   for (word of str) {
     if (maxword.length < word.length) {
       maxword = word;
@@ -79,6 +80,8 @@ function countLetters(str) {
 }
 
 console.log(countLetters(str3));
+// output: { uppersCase: 3, lowerCase: 5 }
+
 
 // -----------------------------------------------------------------
 // Check if String Contains Only Digits
@@ -116,3 +119,48 @@ function strCompress(str) {
 }
 
 console.log(strCompress(str5))
+// output: m1o1n2a1
+
+
+// ---------------------------------------------------------------------
+// Count Occurrences of a Substring
+const str9="banana"
+function checkOccuranceOfSubStr(str){
+  return str.split("an").length -1
+}
+console.log(checkOccuranceOfSubStr(str9))
+// output for str.split("an") is : ["b", "", "a"]
+// If you split a string by the substring, the resulting array's length will always be exactly
+//  1 greater than the number of occurrences
+
+// so we do "-1" to get the number of occurances of sub string
+// output: 2
+
+
+// ----------------------------------------------------------------------------
+// Remove All Spaces
+const str8=" i love india "
+function removeSpaces(str){
+  return str.replaceAll(" ","")
+}
+console.log(removeSpaces(str8))
+
+// output:iloveindia
+
+
+// ---------------------------------------------------------------------
+// Replace Spaces with Hyphens
+const str7=" you are magical "
+function spaceToHyphen(str){
+  return str.trim().replaceAll(" ","-")
+  // trim removes any spaces befor and after the sentence
+  // replaceAll replaces " " with "-"
+}
+console.log(spaceToHyphen(str7))
+
+// output: you-are-magical
+
+
+
+// --------------------------------------------------------------------------
+
