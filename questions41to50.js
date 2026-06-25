@@ -48,10 +48,18 @@ function sumOfElements(arr){
     let sum=0
     // .forEach() takes a function inside its parentheses
     // we can also loop using for..of
+    // for(each of arr){
+    //     sum += ele
+    // }
+    // can use reduce() method also
+    // const nsum=arr.reduce((accumulator,current)=>{
+    //     return accumulator+current
+    // },0)
     arr.forEach(ele =>{
         sum += ele
     })
     return sum
+    
 }
 
 console.log(sumOfElements(arr3))
