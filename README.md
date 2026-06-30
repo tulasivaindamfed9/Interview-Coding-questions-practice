@@ -37,3 +37,9 @@ Questions 81–90
 
 Questions 91–100
 (Flatten Nested Array, Debounce Function, Throttle Function, Deep Copy Object, Group Array Objects by Property, Find Most Frequent Element, Memoization Function, Custom Map Function, Custom Filter Function, Custom Reduce Function)
+
+
+for..in --> sees array indices
+Value: In your array [1, 3, 5, 4], a for...in loop assigns i to "0", "1", "2", and "3" (strings), not 1, 3, 5, and 4.
+
+for...of --> sees array values direcly
