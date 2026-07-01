@@ -36,7 +36,7 @@ Questions 81–90
 
 
 Questions 91–100
-(Flatten Nested Array, Debounce Function, Throttle Function, Deep Copy Object, Group Array Objects by Property, Find Most Frequent Element, Memoization Function, Custom Map Function, Custom Filter Function, Custom Reduce Function)
+(Flatten Nested Array, Debounce Function, Throttle Function, Deep Copy Object, Group Array Objects by Property, Find Most Frequent Element, Memoization Function, Custom Map Function, Custom Filter Function, Custom Reduce Function, rest and spread operator)
 
 
 for..in --> sees array indices
