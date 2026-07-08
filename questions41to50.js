@@ -127,3 +127,16 @@ function removeDuplicates(arr){
 }
 removeDuplicates(arr7)
 // output:  [ 2, 4, 7, 5 ]
+
+
+// ====================================================
+// find the middile number
+const num="342832"
+function printnum(num){
+    const quo=num.length/2
+    const rem=num.length%2
+    const n=Math.floor(quo)
+    if(rem===0){console.log("no num")}
+    else{console.log(" middle num is ",num[n])}
+}
+printnum(num)
