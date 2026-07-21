@@ -16,7 +16,7 @@ Questions 31–40
 
 
 Questions 41–50
-(Largest Element in Array, Smallest Element in Array, Second Largest Element, Second Smallest Element, Sum of Array Elements, Average of Array Elements, Reverse an Array, Sort Array Ascending, Sort Array Descending, Remove Duplicates from Array, find the middle num)
+(Largest Element in Array, Smallest Element in Array, Second Largest Element, Second Smallest Element, Sum of Array Elements, Average of Array Elements, Reverse an Array, Sort Array Ascending, Sort Array Descending, Remove Duplicates from Array, find the middle num, Group array of objs by property)
 
 
 Questions 51–60

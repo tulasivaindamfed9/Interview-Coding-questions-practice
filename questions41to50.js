@@ -140,3 +140,39 @@ function printnum(num){
     else{console.log(" middle num is ",num[n])}
 }
 printnum(num)
+
+
+// ========================================================
+// Group arr of objs by property
+const inventory = [
+  { name: "asparagus", type: "vegetables" },
+  { name: "banana", type: "fruit" },
+  { name: "goat", type: "meat" },
+  { name: "cherries", type: "fruit" }
+];
+
+function groups(arr,type){
+    const result={}
+    arr.forEach(item=>{
+        const key=item.type
+        if(!result[key]){
+            result[key]=[]
+        }
+        result[key].push(item)
+    })
+    console.log(result)
+}
+groups(inventory,"type")
+
+
+// output:
+/* 
+{
+  vegetables: [ { name: 'asparagus', type: 'vegetables' } ],
+  fruit: [
+    { name: 'banana', type: 'fruit' },
+    { name: 'cherries', type: 'fruit' }
+  ],
+  meat: [ { name: 'goat', type: 'meat' } ]
+}
+*/
